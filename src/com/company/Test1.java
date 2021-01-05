@@ -6,6 +6,10 @@ import java.util.Scanner;
  * @author wangdaye996
  * @createtime 2021/1/4 - 23:40
  */
+//打印镂空图案如  *******
+//             *     *
+//             *     *
+//             *******
 public class Test1 {
     public static void main(String[] args) {
         System.out.println("请输入行和列：");
