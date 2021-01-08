@@ -8,6 +8,7 @@ import java.util.Scanner;
  * @author wangdaye996
  * @createtime 2021/1/6 - 20:07
  */
+//商品增删改查
 public class GoodsTest {
     public static void main(String[] args) {
         ArrayList<Goods> list = new ArrayList<>();

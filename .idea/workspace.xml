@@ -8,8 +8,11 @@
   <component name="ChangeListManager">
     <list default="true" id="458139b4-6f1a-4ff7-a4c3-7fbc295112c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDEAproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IDEAproject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEAproject/com/company/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEAproject/com/company/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goods/GoodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goods/GoodsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ordertest/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ordertest/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/polymorphic/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/polymorphic/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,13 +121,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GoodsTest">
-    <configuration name="GoodsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.goods.GoodsTest" />
+  <component name="RunManager" selected="Application.BlockTest">
+    <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bankAccount.AccountTest" />
       <module name="IDEAproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.goods.*" />
+          <option name="PATTERN" value="com.bankAccount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Test2" />
+    <configuration name="BlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.block.BlockTest" />
       <module name="IDEAproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.block.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,39 +148,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.singleton.SingletonTest" />
       <module name="IDEAproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Test3" />
-      <option name="METHOD_NAME" value="Test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SingletonTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.singleton.SingletonTest2" />
       <module name="IDEAproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Test3" />
-      <option name="METHOD_NAME" value="Test2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3.Test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Test5" />
       <module name="IDEAproject" />
       <extension name="coverage">
         <pattern>
@@ -185,10 +183,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Test3" />
-      <option name="METHOD_NAME" value="Test4" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -432,19 +426,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 9.0.39" />
-      <item itemvalue="Application.Test2" />
-      <item itemvalue="JUnit.Test3.Test1" />
-      <item itemvalue="JUnit.Test3.Test2" />
-      <item itemvalue="JUnit.Test3.Test4" />
-      <item itemvalue="Application.GoodsTest" />
+      <item itemvalue="Application.Test5" />
+      <item itemvalue="Application.AccountTest" />
+      <item itemvalue="Application.SingletonTest" />
+      <item itemvalue="Application.SingletonTest2" />
+      <item itemvalue="Application.BlockTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GoodsTest" />
-        <item itemvalue="JUnit.Test3.Test4" />
-        <item itemvalue="JUnit.Test3.Test2" />
-        <item itemvalue="JUnit.Test3.Test1" />
-        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.BlockTest" />
+        <item itemvalue="Application.SingletonTest2" />
+        <item itemvalue="Application.SingletonTest" />
+        <item itemvalue="Application.AccountTest" />
+        <item itemvalue="Application.Test5" />
       </list>
     </recent_temporary>
   </component>
@@ -485,7 +479,9 @@
       <workItem from="1609835291718" duration="80000" />
       <workItem from="1609835392090" duration="6788000" />
       <workItem from="1609851816932" duration="1127000" />
-      <workItem from="1609906816753" duration="15100000" />
+      <workItem from="1609906816753" duration="15835000" />
+      <workItem from="1610010936064" duration="1217000" />
+      <workItem from="1610086210186" duration="12970000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1609830777047</created>
@@ -515,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609864899516</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="第四次提交">
+      <created>1609941658339</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609941658339</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +528,8 @@
     <MESSAGE value="第一次提交" />
     <MESSAGE value="第二次提交" />
     <MESSAGE value="第三次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第三次提交" />
+    <MESSAGE value="第四次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第四次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="340" y="16" key="#Custom_Plugin_Repositories" timestamp="1609822014677">
@@ -548,10 +552,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="218" y="49" width="1089" height="755" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1609827857046" />
-    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1609934824596">
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1610106539741">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1609934824596" />
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1610106539741" />
     <state x="389" y="96" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1609822364835">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -560,10 +564,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="360" y="110" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.834@0.0.1536.834" timestamp="1609821632071" />
-    <state x="311" y="10" key="CommitChangelistDialog2" timestamp="1609864898079">
+    <state x="311" y="10" key="CommitChangelistDialog2" timestamp="1609941656457">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="311" y="10" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1609864898079" />
+    <state x="311" y="10" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1609941656457" />
     <state x="511" y="219" key="FileChooserDialogImpl" timestamp="1609834285440">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -572,22 +576,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="502" y="263" width="622" height="350" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1609847137906" />
-    <state width="1493" height="405" key="GridCell.Tab.0.bottom" timestamp="1609941343574">
+    <state width="1493" height="141" key="GridCell.Tab.0.bottom" timestamp="1610106735431">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1609941343574" />
-    <state width="1493" height="405" key="GridCell.Tab.0.center" timestamp="1609941343574">
+    <state width="1493" height="141" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1610106735431" />
+    <state width="1493" height="141" key="GridCell.Tab.0.center" timestamp="1610106735431">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1609941343574" />
-    <state width="1493" height="405" key="GridCell.Tab.0.left" timestamp="1609941343574">
+    <state width="1493" height="141" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1610106735431" />
+    <state width="1493" height="141" key="GridCell.Tab.0.left" timestamp="1610106735431">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1609941343574" />
-    <state width="1493" height="405" key="GridCell.Tab.0.right" timestamp="1609941343574">
+    <state width="1493" height="141" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1610106735431" />
+    <state width="1493" height="141" key="GridCell.Tab.0.right" timestamp="1610106735431">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1609941343574" />
+    <state width="1493" height="141" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1610106735431" />
     <state width="1493" height="256" key="GridCell.Tab.1.bottom" timestamp="1609833889937">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -644,22 +648,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="408" y="115" key="NewModule_or_Project.wizard/0.0.1536.834@0.0.1536.834" timestamp="1609833004259" />
-    <state x="163" y="50" key="SettingsEditor" timestamp="1609932564451">
+    <state x="163" y="50" key="SettingsEditor" timestamp="1610103766370">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="163" y="50" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1609932564451" />
+    <state x="163" y="50" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1610103766370" />
     <state x="490" y="159" width="543" height="524" key="StructurePopup" timestamp="1609919735807">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="490" y="159" width="543" height="524" key="StructurePopup/0.0.1536.834@0.0.1536.834" timestamp="1609919735807" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1609864916777">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1609941666312">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1609864916777" />
-    <state x="380" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1609907897994">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1609941666312" />
+    <state x="380" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1610091317677">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="380" y="267" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1609907897994" />
+    <state x="380" y="267" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1610091317677" />
     <state x="485" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1609925777101">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
