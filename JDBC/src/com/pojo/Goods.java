@@ -1,13 +1,20 @@
-package com.goods;
+package com.pojo;
 
 /**
  * @author wangdaye996
- * @createtime 2021/1/6 - 20:05
+ * @createtime 2021/1/8 - 23:37
  */
 public class Goods {
     private int id;
     private String name;
     private double price;
+
+    public Goods() {
+    }
+
+    public Goods(String name) {
+        this.name = name;
+    }
 
     public Goods(int id, String name, double price) {
         this.id = id;
@@ -15,7 +22,9 @@ public class Goods {
         this.price = price;
     }
 
-    public Goods() {
+    public Goods(String name, double price) {
+        this.name = name;
+        this.price = price;
     }
 
     public int getId() {
@@ -44,7 +53,7 @@ public class Goods {
 
     @Override
     public String toString() {
-        return "商品信息{" +
+        return "Goods{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", price=" + price +
