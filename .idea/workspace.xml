@@ -6,16 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="458139b4-6f1a-4ff7-a4c3-7fbc295112c4" name="Default Changelist" comment="第五次提交">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="458139b4-6f1a-4ff7-a4c3-7fbc295112c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEAproject/com/company/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEAproject/com/company/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEAproject/com/goods/Goods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEAproject/com/goods/GoodsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEAproject/com/polymorphic/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEAproject/com/polymorphic/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goods/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pojo/Goods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goods/GoodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pojo/GoodsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +45,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -131,13 +124,13 @@
       <recent name="D:\IDEAproject\JDBC" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GoodsTest1">
-    <configuration name="BlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.block.BlockTest" />
+  <component name="RunManager" selected="Application.AbstractTest">
+    <configuration name="AbstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.abstracttest.AbstractTest" />
       <module name="IDEAproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.block.*" />
+          <option name="PATTERN" value="com.abstracttest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -435,20 +428,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BlockTest" />
       <item itemvalue="Application.JdbcTest1" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.39" />
       <item itemvalue="Application.Test1" />
       <item itemvalue="Application.TestDao" />
       <item itemvalue="Application.GoodsTest1" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.39" />
+      <item itemvalue="Application.AbstractTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractTest" />
         <item itemvalue="Application.GoodsTest1" />
         <item itemvalue="Application.TestDao" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.JdbcTest1" />
-        <item itemvalue="Application.BlockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -492,7 +485,8 @@
       <workItem from="1609906816753" duration="15835000" />
       <workItem from="1610010936064" duration="1217000" />
       <workItem from="1610086210186" duration="17199000" />
-      <workItem from="1610114764337" duration="9353000" />
+      <workItem from="1610114764337" duration="9551000" />
+      <workItem from="1610172026373" duration="4804000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1609830777047</created>
@@ -536,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610109618490</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="第六次提交">
+      <created>1610124520256</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610124520256</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +549,8 @@
     <MESSAGE value="第三次提交" />
     <MESSAGE value="第四次提交" />
     <MESSAGE value="第五次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第五次提交" />
+    <MESSAGE value="第六次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第六次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="340" y="16" key="#Custom_Plugin_Repositories" timestamp="1609822014677">
@@ -571,10 +573,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="218" y="49" width="1089" height="755" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1609827857046" />
-    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1610123851125">
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1610177455084">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1610123851125" />
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1610177455084" />
     <state x="389" y="96" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1609822364835">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -587,10 +589,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="477" y="65" key="#mysql-connector-java-5.1.49.jar/0.0.1536.834@0.0.1536.834" timestamp="1610111314191" />
-    <state x="311" y="10" key="CommitChangelistDialog2" timestamp="1610109615850">
+    <state x="311" y="10" key="CommitChangelistDialog2" timestamp="1610124517212">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="311" y="10" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1610109615850" />
+    <state x="311" y="10" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1610124517212" />
     <state x="511" y="219" key="FileChooserDialogImpl" timestamp="1610114495081">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -599,22 +601,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="502" y="263" width="622" height="350" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1609847137906" />
-    <state width="1493" height="427" key="GridCell.Tab.0.bottom" timestamp="1610124483675">
+    <state width="1493" height="293" key="GridCell.Tab.0.bottom" timestamp="1610176984325">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="427" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1610124483675" />
-    <state width="1493" height="427" key="GridCell.Tab.0.center" timestamp="1610124483675">
+    <state width="1493" height="293" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1610176984325" />
+    <state width="1493" height="293" key="GridCell.Tab.0.center" timestamp="1610176984325">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="427" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1610124483675" />
-    <state width="1493" height="427" key="GridCell.Tab.0.left" timestamp="1610124483675">
+    <state width="1493" height="293" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1610176984325" />
+    <state width="1493" height="293" key="GridCell.Tab.0.left" timestamp="1610176984325">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="427" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1610124483675" />
-    <state width="1493" height="427" key="GridCell.Tab.0.right" timestamp="1610124483675">
+    <state width="1493" height="293" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1610176984325" />
+    <state width="1493" height="293" key="GridCell.Tab.0.right" timestamp="1610176984325">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="427" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1610124483675" />
+    <state width="1493" height="293" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1610176984325" />
     <state width="1493" height="256" key="GridCell.Tab.1.bottom" timestamp="1609833889937">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -679,14 +681,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="490" y="159" width="543" height="524" key="StructurePopup/0.0.1536.834@0.0.1536.834" timestamp="1609919735807" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1610109632569">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1610124526764">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1610109632569" />
-    <state x="380" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1610114760261">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1610124526764" />
+    <state x="380" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1610176437053">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="380" y="267" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1610114760261" />
+    <state x="380" y="267" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1610176437053" />
     <state x="485" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1609925777101">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -699,10 +701,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="178" y="27" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1610111102246" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1609935182596">
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1610177404466">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1609935182596" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1610177404466" />
     <state x="599" y="209" key="svn.repositoryBrowser" timestamp="1609830416014">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
