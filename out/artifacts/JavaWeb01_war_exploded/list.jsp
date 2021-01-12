@@ -10,6 +10,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>商品信管理</title>
@@ -19,8 +20,9 @@
 <%
     GoodsService goodsService = new GoodsServiceImpl();
     List<Goods> list=goodsService.Query();
+    request.setAttribute("list",list);
 %>
-<a href="add.jsp">新增</a>
+<a href="edit.jsp?modify=0">新增</a>
 <table width="500px" border="1px" bgcolor="#d2691e">
     <tr>
         <td>编号</td>
@@ -28,22 +30,16 @@
         <td>价格</td>
         <td>操作</td>
     </tr>
-<%
-    for (Goods goods : list) {
-
-%>
+<c:forEach items="${list}" var="goods" >
     <tr>
-        <td><%=goods.getId()%></td>
-        <td><%=goods.getName()%></td>
-        <td><%=goods.getPrice()%></td>
-        <td><a href="edit.jsp?name=<%=goods.getName()%>">修改</a>
-            <a href="delete.jsp?name=<%=goods.getName()%>">删除</a>
+        <td>${goods.id}</td>
+        <td>${goods.name}</td>
+        <td>${goods.price}</td>
+        <td><a href="edit.jsp?name=${goods.name}&price=${goods.price}&modify=1">修改</a>
+            <a href="delete.jsp?name=${goods.name}" onclick="return confirm('是否删除')">删除</a>
         </td>
     </tr>
-<%
-    }
-%>
-
+</c:forEach>
 </table>
 </body>
 </html>

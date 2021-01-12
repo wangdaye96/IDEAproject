@@ -40,8 +40,8 @@
 add(2, 3)
 %><br/>
 <h3>表单数据收集</h3>
-<a href="list.jsp">商品信息管理</a>
-<form action="show.jsp" method="post">
+<h1><a href="list.jsp">商品信息管理</a></h1>
+<form action="wuyong/show.jsp" method="post">
     编号：<input type="text" name="empno" value=" "><br/>
     姓名：<input type="text" id="ename" name="ename" maxlength="5" size="20"><br>
 

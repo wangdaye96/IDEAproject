@@ -11,19 +11,22 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>处理edit数据页面</title>
+    <title>处理数据页面</title>
 </head>
 <body>
 <%
     request.setCharacterEncoding("UTF-8");
     response.setCharacterEncoding("UTF-8");
     String name = request.getParameter("name");
-    Double price = valueOf(request.getParameter("price"));
-//    out.print(name);
-//    out.print(price);
+    Double price = Double.parseDouble(request.getParameter("price"));
+    String modify=request.getParameter("modify");
     Goods goods = new Goods(name,price);
     GoodsService goodsService = new GoodsServiceImpl();
-    goodsService.UpdateByName(goods);
+    if ("1".equals(modify)) {
+        goodsService.UpdateByName(goods);
+    }else {
+        goodsService.insert(goods);
+    }
     response.sendRedirect("list.jsp");
 %>
 </body>
