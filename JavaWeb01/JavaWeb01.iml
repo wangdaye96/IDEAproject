@@ -26,9 +26,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="javax.servlet-api-3.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="javax.servlet-api-3.0.1" level="project" />
     <orderEntry type="library" name="mysql-connector-java-5.1.49 (2)" level="project" />
     <orderEntry type="library" name="jstl-1.2" level="project" />
     <orderEntry type="library" name="standard" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.39" level="application_server_libraries" />
   </component>
 </module>

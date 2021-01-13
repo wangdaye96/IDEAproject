@@ -11,6 +11,7 @@ import java.util.List;
 public interface GoodsService {
     //查询
     public List<Goods> Query();
+    public Goods QueryById(int id);
     //新增
     public int insert(Goods goods);
     //修改

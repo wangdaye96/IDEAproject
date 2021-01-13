@@ -18,6 +18,11 @@ public class GoodsServiceImpl implements GoodsService{
     }
 
     @Override
+    public Goods QueryById(int id) {
+        return goodsDao.QueryById(id);
+    }
+
+    @Override
     public int insert(Goods goods) {
         return goodsDao.insert(goods);
     }

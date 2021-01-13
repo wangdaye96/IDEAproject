@@ -18,9 +18,9 @@
 <body>
 <h1>商品信息管理</h1>
 <%
-    GoodsService goodsService = new GoodsServiceImpl();
+    /*GoodsService goodsService = new GoodsServiceImpl();
     List<Goods> list=goodsService.Query();
-    request.setAttribute("list",list);
+    request.setAttribute("list",list);*/
 %>
 <a href="edit.jsp?modify=0">新增</a>
 <table width="500px" border="1px" bgcolor="#d2691e">
@@ -35,8 +35,9 @@
         <td>${goods.id}</td>
         <td>${goods.name}</td>
         <td>${goods.price}</td>
-        <td><a href="edit.jsp?name=${goods.name}&price=${goods.price}&modify=1">修改</a>
-            <a href="delete.jsp?name=${goods.name}" onclick="return confirm('是否删除')">删除</a>
+        <%--name=${goods.name}&price=${goods.price}&--%>
+        <td><a href="goods?cmd=edit&id=${goods.id}&modify=1">修改</a>
+            <a href="goods?cmd=del&name=${goods.name}" onclick="return confirm('是否删除')">删除</a>
         </td>
     </tr>
 </c:forEach>

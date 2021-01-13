@@ -18,7 +18,7 @@
     Double price=Double.parseDouble(request.getParameter("price"));
     out.print(name);
 %>
-<form action="../do.jsp?name=${param.name}" method="post">
+<form action="do.jsp?name=${param.name}" method="post">
     你想修改的价格:<input name="price" type="text" value="${param.price}"/><br>
     <input type="submit" value="修改"/>
     <input type="reset" value="重置"/>

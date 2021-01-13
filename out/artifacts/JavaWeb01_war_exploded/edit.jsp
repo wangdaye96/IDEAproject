@@ -15,17 +15,24 @@
 </head>
 <body>
 <%
-    request.setCharacterEncoding("UTF-8");
+    /*request.setCharacterEncoding("UTF-8");
     response.setCharacterEncoding("UTF-8");
     String name = request.getParameter("name");
     name=name==null?"":name;
     String price = request.getParameter("price");
-    price=price==null?"":price;
-    String modify = request.getParameter("modify");
+    price=price==null?"":price;*/
+    /*String id = request.getParameter("id");
+    id=id==null?"0":id;
+    //调用service，通过id查询商品详情
+    GoodsService goodsService = new GoodsServiceImpl();
+    Goods goods = goodsService.QueryById(Integer.parseInt(id));
+    //设置本网页作用域
+    pageContext.setAttribute("goods",goods);
+    String modify = request.getParameter("modify");*/
 %>
-<form action="do.jsp?modify=${param.modify}" method="post">
-        名称:<input name="name" type="text" value="${param.name}"/><br>
-        价格:<input name="price" type="text" value="${param.price}"/><br>
+<form action="goods?modify=${param.modify}" method="post">
+        名称:<input name="name" type="text" value="${goods.name}"/><br>
+        价格:<input name="price" type="text" value="${goods.price==0.0?"":goods.price}"/><br>
         <input type="submit" value="提交"/>
         <input type="reset" value="重置"/>
 </form>

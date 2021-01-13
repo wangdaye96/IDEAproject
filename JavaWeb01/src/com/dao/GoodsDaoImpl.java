@@ -38,6 +38,26 @@ public class GoodsDaoImpl implements GoodsDao {
     }
 
     @Override
+    public Goods QueryById(int id) {
+        String sql = "select * from goods where id=?";
+        Object[] obj = {id};
+        Goods goods = new Goods();
+        try {
+            ResultSet rs = dbUtil.executeQuery(sql, obj);
+            while (rs.next()) {
+                goods.setId(rs.getInt("id"));
+                goods.setName(rs.getString("name"));
+                goods.setPrice(rs.getDouble("price"));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            dbUtil.CloseAll();
+        }
+        return goods;
+    }
+
+    @Override
     public int insert(Goods goods) {
         int j = 0;
         String sql = "insert into goods (name,price) values (?,?)";

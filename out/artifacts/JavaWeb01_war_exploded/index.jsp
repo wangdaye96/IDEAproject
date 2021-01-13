@@ -11,6 +11,7 @@
 </head>
 <body>
 <h1 style="color: #ff0a10">JSP语法</h1>
+<a href="goods?cmd=list">Servlet版商品管理</a>
 <%!
     //声明变量和定义方法
     String name2 = "傲天";
