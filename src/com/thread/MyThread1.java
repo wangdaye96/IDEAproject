@@ -22,7 +22,7 @@ public class MyThread1 extends Thread {
     }
 }
 
-class MyThread2 extends Thread{
+class MyThread1_2 extends Thread{
     @Override
     public void run() {
         for (int i = 0; i < 100; i++) {

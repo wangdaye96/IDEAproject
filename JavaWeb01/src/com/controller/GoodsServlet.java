@@ -5,6 +5,7 @@ import com.service.GoodsService;
 import com.service.GoodsServiceImpl;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -16,6 +17,7 @@ import java.util.List;
  * @Date 2021/1/13
  * @Time 16:10
  */
+@WebServlet(urlPatterns = {"/goods"})
 public class GoodsServlet extends HttpServlet {
     GoodsService goodsService = new GoodsServiceImpl();
 
@@ -51,8 +53,8 @@ public class GoodsServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setCharacterEncoding("UTF-8");
-        response.setCharacterEncoding("UTF-8");
+//        request.setCharacterEncoding("UTF-8");
+//        response.setCharacterEncoding("UTF-8");
         String modify = request.getParameter("modify");
         String name = request.getParameter("name");
         Double price = Double.parseDouble(request.getParameter("price"));

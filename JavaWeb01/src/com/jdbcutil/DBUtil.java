@@ -14,8 +14,14 @@ public class DBUtil {
     //获取连接
     public void getConn() {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mycrmdb?useUnicode=true&characterEncoding=UTF-8", "root", "123456");
+            ConfigManager instance = ConfigManager.getInstance();
+            String driver = instance.getString("driver");
+            String url = instance.getString("url");
+            String username = instance.getString("username");
+            String password = instance.getString("password");
+
+            Class.forName(driver);
+            conn = DriverManager.getConnection(url, username, password);
         } catch (Exception e) {
             e.printStackTrace();
         }

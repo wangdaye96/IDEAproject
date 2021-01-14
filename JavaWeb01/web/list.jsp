@@ -22,6 +22,7 @@
     List<Goods> list=goodsService.Query();
     request.setAttribute("list",list);*/
 %>
+<a href="loginout">注销</a><br>
 <a href="edit.jsp?modify=0">新增</a>
 <table width="500px" border="1px" bgcolor="#d2691e">
     <tr>
